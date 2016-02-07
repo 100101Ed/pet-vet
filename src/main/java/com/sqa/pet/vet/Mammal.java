@@ -23,4 +23,44 @@ public class Mammal extends Pet {
 	private boolean rabiesShot;
 
 	private boolean houseBroken;
+
+	public boolean breastFeed() {
+		// TODO implement method
+		return true;
+	}
+
+	public boolean givenBirth() {
+		// TODO implement method
+		return true;
+	}
+
+	/**
+	 * @return the houseBroken
+	 */
+	public boolean isHouseBroken() {
+		return this.houseBroken;
+	}
+
+	/**
+	 * @return the rabiesShot
+	 */
+	public boolean isRabiesShot() {
+		return this.rabiesShot;
+	}
+
+	/**
+	 * @param houseBroken
+	 *            the houseBroken to set
+	 */
+	public void setHouseBroken(boolean houseBroken) {
+		this.houseBroken = houseBroken;
+	}
+
+	/**
+	 * @param rabiesShot
+	 *            the rabiesShot to set
+	 */
+	public void setRabiesShot(boolean rabiesShot) {
+		this.rabiesShot = rabiesShot;
+	}
 }
