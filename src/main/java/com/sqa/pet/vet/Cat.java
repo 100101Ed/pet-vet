@@ -23,4 +23,34 @@ public class Cat extends Mammal {
 	private boolean killingMice;
 
 	private boolean claws;
+
+	/**
+	 * @return the claws
+	 */
+	public boolean isClaws() {
+		return this.claws;
+	}
+
+	/**
+	 * @return the killingMice
+	 */
+	public boolean isKillingMice() {
+		return this.killingMice;
+	}
+
+	/**
+	 * @param claws
+	 *            the claws to set
+	 */
+	public void setClaws(boolean claws) {
+		this.claws = claws;
+	}
+
+	/**
+	 * @param killingMice
+	 *            the killingMice to set
+	 */
+	public void setKillingMice(boolean killingMice) {
+		this.killingMice = killingMice;
+	}
 }
