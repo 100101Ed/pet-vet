@@ -21,4 +21,19 @@ package com.sqa.pet.vet;
 public class Snake extends Reptile {
 
 	private int shedFrequency;
+
+	/**
+	 * @return the shedFrequency
+	 */
+	public int getShedFrequency() {
+		return this.shedFrequency;
+	}
+
+	/**
+	 * @param shedFrequency
+	 *            the shedFrequency to set
+	 */
+	public void setShedFrequency(int shedFrequency) {
+		this.shedFrequency = shedFrequency;
+	}
 }
