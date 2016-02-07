@@ -30,22 +30,6 @@ public class Pet {
 
 	private String breed;
 
-	/**
-	 * @param alive
-	 * @param name
-	 * @param injured
-	 * @param male
-	 * @param breed
-	 */
-	public Pet(boolean alive, String name, boolean injured, boolean male, String breed) {
-		super();
-		this.alive = alive;
-		this.name = name;
-		this.injured = injured;
-		this.male = male;
-		this.breed = breed;
-	}
-
 	public boolean checkPet() {
 		// TODO checkPet method implement
 		return true;
@@ -144,25 +128,5 @@ public class Pet {
 	 */
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	/**
-	 * @see java.lang.Object#toString()
-	 */
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Pet [alive=");
-		builder.append(this.alive);
-		builder.append(", name=");
-		builder.append(this.name);
-		builder.append(", injured=");
-		builder.append(this.injured);
-		builder.append(", male=");
-		builder.append(this.male);
-		builder.append(", breed=");
-		builder.append(this.breed);
-		builder.append("]");
-		return builder.toString();
 	}
 }
