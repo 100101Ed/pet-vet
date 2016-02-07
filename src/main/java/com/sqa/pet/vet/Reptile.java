@@ -25,4 +25,49 @@ public class Reptile extends Pet {
 	private int heatLevel;
 
 	private boolean poinsonous;
+
+	/**
+	 * @return the heatLevel
+	 */
+	public int getHeatLevel() {
+		return this.heatLevel;
+	}
+
+	/**
+	 * @return the poinsonous
+	 */
+	public boolean isPoinsonous() {
+		return this.poinsonous;
+	}
+
+	/**
+	 * @return the scales
+	 */
+	public boolean isScales() {
+		return this.scales;
+	}
+
+	/**
+	 * @param heatLevel
+	 *            the heatLevel to set
+	 */
+	public void setHeatLevel(int heatLevel) {
+		this.heatLevel = heatLevel;
+	}
+
+	/**
+	 * @param poinsonous
+	 *            the poinsonous to set
+	 */
+	public void setPoinsonous(boolean poinsonous) {
+		this.poinsonous = poinsonous;
+	}
+
+	/**
+	 * @param scales
+	 *            the scales to set
+	 */
+	public void setScales(boolean scales) {
+		this.scales = scales;
+	}
 }
