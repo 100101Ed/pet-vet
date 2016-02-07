@@ -30,13 +30,139 @@ public class Pet {
 
 	private String breed;
 
+	/**
+	 * @param alive
+	 * @param name
+	 * @param injured
+	 * @param male
+	 * @param breed
+	 */
+	public Pet(boolean alive, String name, boolean injured, boolean male, String breed) {
+		super();
+		this.alive = alive;
+		this.name = name;
+		this.injured = injured;
+		this.male = male;
+		this.breed = breed;
+	}
+
 	public boolean checkPet() {
 		// TODO checkPet method implement
 		return true;
 	}
 
-	public boolean regPet() {
-		// TODO regPet method implement
+	public boolean doAction() {
+		// TODO method implement is needed
 		return true;
+	}
+
+	public boolean euthanize() {
+		// TODO method implement is needed
+		return true;
+	}
+
+	/**
+	 * @return the breed
+	 */
+	public String getBreed() {
+		return this.breed;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return this.name;
+	}
+
+	public boolean healPet() {
+		// TODO method implement is needed
+		return true;
+	}
+
+	/**
+	 * @return the alive
+	 */
+	public boolean isAlive() {
+		return this.alive;
+	}
+
+	/**
+	 * @return the injured
+	 */
+	public boolean isInjured() {
+		return this.injured;
+	}
+
+	/**
+	 * @return the male
+	 */
+	public boolean isMale() {
+		return this.male;
+	}
+
+	public boolean regPet() {
+		// TODO method implement is needed
+		return true;
+	}
+
+	/**
+	 * @param alive
+	 *            the alive to set
+	 */
+	public void setAlive(boolean alive) {
+		this.alive = alive;
+	}
+
+	/**
+	 * @param breed
+	 *            the breed to set
+	 */
+	public void setBreed(String breed) {
+		this.breed = breed;
+	}
+
+	/**
+	 * @param injured
+	 *            the injured to set
+	 */
+	public void setInjured(boolean injured) {
+		this.injured = injured;
+	}
+
+	/**
+	 * @param male
+	 *            the male to set
+	 */
+	public void setMale(boolean male) {
+		this.male = male;
+	}
+
+	/**
+	 * @param name
+	 *            the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	/**
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Pet [alive=");
+		builder.append(this.alive);
+		builder.append(", name=");
+		builder.append(this.name);
+		builder.append(", injured=");
+		builder.append(this.injured);
+		builder.append(", male=");
+		builder.append(this.male);
+		builder.append(", breed=");
+		builder.append(this.breed);
+		builder.append("]");
+		return builder.toString();
 	}
 }
